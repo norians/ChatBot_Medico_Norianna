@@ -1,0 +1,40 @@
+.logo-img{
+    width: 130px;
+    margin: 0 auto;  
+}
+
+h1{
+    color: rgb(0, 88, 88);
+}
+
+/* Bloque de chat*/
+.userText{
+    text-align: end;
+    font-size: 1.19rem;
+    color: rgb(39, 90, 81);
+}
+
+.chatbotText{
+    font-size: 1.19rem;
+}
+
+
+/* Inputs de texto y envío de mensajes */
+#inputUserMessage {
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-bottom: 1px solid;
+}
+
+#btnSendUserMessage {
+    height: 40px;
+    border-radius: 8px;
+    width: 9%;
+}
+
+.fieldset-input-row{
+    position: sticky;
+    bottom: 0;
+    background: white;
+}
